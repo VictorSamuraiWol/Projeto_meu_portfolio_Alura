@@ -6,8 +6,12 @@ body {
 header {
     display: flex;
     justify-content: center;
-    border: 1px solid #22D4FD;
     border-radius: 16px;
+}
+
+header h1 {
+    text-decoration: underline;
+    text-decoration-color: #22D4FD;
 }
 
 main {
