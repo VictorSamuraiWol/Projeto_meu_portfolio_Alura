@@ -1,14 +1,22 @@
-html {
-    height: 1080px;
-    width: 0 auto;
+body {
+    margin: 0 auto;
     background-color: black;
-    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #22D4FD;
+    border-radius: 16px;
 }
 
 main {
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -31,14 +39,11 @@ h2 {
 }
 
 #section1 {
-    margin-left: 357px;
-    margin-top: 278px;
-    margin-right: 55px;
     height: 660px;
     width: 615px;
 }
 
-a {
+main a {
     height: 79px;
     width: 280px;
     border-radius: 16px;
@@ -54,8 +59,21 @@ a {
 img {
     height: 550px;
     width: 488px;
-    margin-top: 235px;
     border-radius: 16px;
 }
 
+footer {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    border: 1px solid #22D4FD;
+    border-radius: 16px;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
