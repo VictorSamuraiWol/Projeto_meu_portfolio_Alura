@@ -19,7 +19,7 @@ h1 {
     line-height: 56px;
 }
 
-span {
+strong {
     color: #22D4FD;
 }
 
@@ -38,15 +38,17 @@ h2 {
     width: 615px;
 }
 
-button {
+a {
     height: 79px;
     width: 280px;
-    margin-right: 25px;
     border-radius: 16px;
     background-color: #22D4FD;
+    color: black;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    text-decoration: none;
+    padding: 20px;
 }
 
 img {
@@ -55,3 +57,5 @@ img {
     margin-top: 235px;
     border-radius: 16px;
 }
+
+
